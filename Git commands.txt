@@ -6,7 +6,20 @@
 3) Third step is to add a remote repository to your local
 	git add remote <remote-name> <path>
 	e.g-> git add remote origin "https://github.com/MahimaBisht/GitHub-notes.git"
-4) Fourth step is to create a branch
-	e.g-> git branch -m master
-5) Add file to your local repository
-	e.g-> 
+4) Fourth step is to add a file to local repository
+	git add . (to add all untracked files under local repository)
+	git add filename (to add a specific file)
+5) Next step is to commit changes in local repository
+	git commit -m "message for commit"
+6) Next step is to push committed changes to the remote repository
+	git push <remote> <branch>
+	git push origin main
+7) Create another branch
+	e.g-> git branch branchname
+	git branch branch2
+8) Switch to new branch
+	git checkout <branch>
+
+9) Check all available branches
+	git branch --all
+	git branch
